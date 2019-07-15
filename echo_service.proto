@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package echo;
+
+message Request {
+    uint32 req_id = 1;
+    uint32 width_val =2;
+    string data = 3;
+}
+
+
+message Response {
+    uint32 req_id = 1;
+    uint32 width_val =2;
+    string data = 3;
+}
+
